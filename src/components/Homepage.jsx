@@ -8,7 +8,7 @@ import Loader from './Loader';
 
 const { Title } = Typography;
 
-const Homepage = () => {
+const Homepage = (total) => {
 
     const { data, isFetching } = useGetCryptosQuery(10);
 
